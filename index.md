@@ -7,4 +7,17 @@
 
 Made some headers
 
+``` csharp
+int myVar = 10;
+int MyVar
+{
+    get => myVar;
+    set
+    {
+        myVar = value > myVar ? value : myVar;
+        Console.WriteLine("woooooow");
+    }
+}
+```
+
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
